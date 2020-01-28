@@ -1,4 +1,3 @@
-# codeGen
 ## overview
 
 The code templete of ReactNative when using [unstated-next](https://github.com/jamiebuilds/unstated-next) is generated.
