@@ -5,11 +5,11 @@ The ```.tsx``` code templete when using [unstated-next](https://github.com/jamie
 
 ## usage
 
-#### Installation python and command like this.
+#### Install python and command like this.
 
 ```python genCode.py <COMPONENT NAME>```
 
-#### change ```PATH``` as you like
+#### change ```PATH``` as you like.
 
 ```path_w = "./PATH/" + name + ".tsx"```
 
