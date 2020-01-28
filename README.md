@@ -1,7 +1,7 @@
 # codeGen
 ## overview
 
-The ```.tsx``` code templete when using [unstated-next](https://github.com/jamiebuilds/unstated-next) is generated.
+The ReactNative code templete when using [unstated-next](https://github.com/jamiebuilds/unstated-next) is generated.
 
 ## usage
 
