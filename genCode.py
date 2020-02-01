@@ -8,7 +8,7 @@ def main():
         return
     
     name = args[1].capitalize()
-    path_w = "./PATH/" + name + ".tsx"
+    path_w = "../../navigation-training/nav-tre/screens/" + name + ".tsx"
 
     hook_part = """
   const [{}, set{}] = useState(initialState);
@@ -43,11 +43,11 @@ const HEIGHT = Dimensions.get('window').height;
 
 const initialData = {{{3}}}
 
-function use{4}(initialState=initialData) {{{5}}}
+const use{4}=(initialState=initialData)=>{{{5}}}
 
 export const {4}C = createContainer(use{4})
 
-function {4}Display() {{{6}}}
+const {4}Display=()=>{{{6}}}
 
 export default () => {{{7}}}
 """.format(" useState, useContext, ", " View, Dimensions", " createContainer ", "", name, hook_part, disp_part, app_part, " NavigationContext ")
