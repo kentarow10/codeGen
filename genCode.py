@@ -40,6 +40,7 @@ import {{{8}}} from "react-navigation";
 
 const WIDTH = Dimensions.get('window').width;
 const HEIGHT = Dimensions.get('window').height;
+const styles = StyleSheet.create({{{}}});
 
 const initialData = {{{3}}}
 
