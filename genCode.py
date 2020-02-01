@@ -19,6 +19,7 @@ def main():
 
     disp_part = """
   const {} = {}C.useContainer()
+  
   return (
     <View>
     </View>
@@ -40,7 +41,7 @@ import {{{8}}} from "react-navigation";
 
 const WIDTH = Dimensions.get('window').width;
 const HEIGHT = Dimensions.get('window').height;
-const styles = StyleSheet.create({{{}}});
+const styles = StyleSheet.create({{{9}}});
 
 const initialData = {{{3}}}
 
@@ -51,7 +52,7 @@ export const {4}C = createContainer(use{4})
 const {4}Display=()=>{{{6}}}
 
 export default () => {{{7}}}
-""".format(" useState, useContext, ", " View, Dimensions", " createContainer ", "", name, hook_part, disp_part, app_part, " NavigationContext ")
+""".format(" useState, useContext, ", " StyleSheet, View, Dimensions", " createContainer ", "", name, hook_part, disp_part, app_part, " NavigationContext ", "")
 
     with open(path_w, mode='w') as f:
         f.write(code)
